@@ -50,6 +50,8 @@ function display(){
 
 
 function displaydata(data){
+    
+    document.querySelector("#content").innerHTML="";
 
      data.forEach(function(el,i){
 
@@ -98,6 +100,7 @@ function mydelete(i){
     })
     .then((res)=>{
         console.log(res);
+        display();
     })
     .catch((err)=>{
         console.log(err);
