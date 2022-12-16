@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <form >
+           <h2>Add</h2>
+           <input id="cover" type="text" placeholder="Book Cover Image">
+           <input id="name" type="text" placeholder="Name of the book">
+           <input id= "author" type="text" placeholder="Author of the book">
+           <select title="Genre" id="genre">
+            <option value="">Select Genre</option>
+            <option value="Science">Science</option>
+            <option value="Fiction">Fiction</option>
+            <option value="History">History</option>
+            <option value="Tech">Tech</option>
+            <option value="Business">Business</option>
+           </select>
+           <select title="Edition" id="edition">
+            <option value="">Select Edition</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+           </select>
+           <input id="publisher" type="text" placeholder="Publisher">
+           <input id= "cost" type="number" placeholder="Cost">
+           <input type="submit" value="Add">
+        </form>
+</div>
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                    <th>Book Cover Image </th>
+                     <th>Name of the book</th> 
+                     <th>Author of the book</th> 
+                     <th>Genre</th> 
+                     <th>Edition</th> 
+                     <th>Publisher</th>
+                     <th>Cost</th>
+                     <th>Edit</th>
+                     <th>Delete</th>                  
+            </tr>
+        </thead>
+        <tbody id="content">
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+<script src="./scripts/dashborad.js"></script>

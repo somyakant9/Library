@@ -1,0 +1,37 @@
+{
+  "books": [
+    {
+      "id": 0.6719994206592441,
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Nature Kingdom",
+      "author": "clove grifith",
+      "genre": "Fiction",
+      "edition": "2021",
+      "publisher": "mdn",
+      "cost": "1200",
+      "borrowed": false
+    },
+    {
+      "id": 0.20181367742032608,
+      "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+      "book_name": "Hello",
+      "author": "samuel",
+      "genre": "Science",
+      "edition": "2021",
+      "publisher": "geeks",
+      "cost": "190",
+      "borrowed": false
+    },
+    {
+      "id": 0.9739995611653711,
+      "image_url": "https://pixelclerks.com/pics/550-2EXfVq1535745486.jpg",
+      "book_name": "The one",
+      "author": "genlene",
+      "genre": "Fiction",
+      "edition": "2022",
+      "publisher": "asderd",
+      "cost": "1232",
+      "borrowed": false
+    }
+  ]
+}

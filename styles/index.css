@@ -1,0 +1,21 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    height: 100vh;
+    background-color: rgb(216, 185, 140);
+}
+.container>div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    background-color: rgb(231, 197, 197);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
