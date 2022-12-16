@@ -17,7 +17,7 @@ form.addEventListener("submit" , function(event){
 		borrowed: false
     }
 
-    fetch("http://localhost:8080/books",{
+    fetch("https://json-backend.onrender.com/books",{
         method:"POST",
         headers:{
             "Content-Type" : "application/json"
@@ -35,7 +35,7 @@ form.addEventListener("submit" , function(event){
 
 function display(){
 
-    fetch("http://localhost:8080/books")
+    fetch("https://json-backend.onrender.com/books")
     .then((res)=>{
       return res.json();
     })
@@ -93,7 +93,7 @@ display();
 
 function mydelete(i){
 
-    fetch(`http://localhost:8080/books/${i}`,{
+    fetch(`https://json-backend.onrender.com/books/${i}`,{
         method:"DELETE"
     })
     .then((res)=>{
